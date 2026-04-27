@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: "Sekuya", system-ui;
+  background: linear-gradient(135deg, #141414, #1f1f1f);
+  color: #ffffff;
+}
+
+/* Main container */
+.container {
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* Title */
+h1 {
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Input */
+input {
+  padding: 12px;
+  width: 280px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+/* Button */
+button {
+  padding: 12px 18px;
+  background: linear-gradient(135deg, #e50914, #b20710);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+li {
+  background: #222;
+  margin: 10px auto;
+  padding: 12px;
+  width: 300px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+li:hover {
+  background: #333;
+}
